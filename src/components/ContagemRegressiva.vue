@@ -1,7 +1,7 @@
 <template>
     <div>
         <ul>
-            <li v-for="(n, key) in countDown" :key="key">{{ n }}</li>
+            <li v-for="(n, key) in this.countDown" :key="key">{{ n }}</li>
             <li>Lançar Míssil.</li>
         </ul>
     </div>
