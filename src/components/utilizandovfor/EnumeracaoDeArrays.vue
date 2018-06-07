@@ -8,6 +8,7 @@
 <script>
 export default {
     data:() => ({
+        // enumeracao ordenada, e nao enumeracao de objetos.
         dados:{
             firstName: 'Hamilton',
             lastName: 'Gabriel',
