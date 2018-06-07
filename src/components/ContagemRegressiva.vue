@@ -1,8 +1,9 @@
 <template>
     <div>
         <ul>
-            <li v-for="(n, key) in 10" :key="key">{{11 - n }}</li>
-            <li>Lançar Míssil</li>
+            <!-- Anti padrao, nao devemos colocar matrizes literais dentro da marcacao -->
+            <li v-for="(n, key) in [10, 9, 8, 7,  6, 5, 4, 3, 2, 1,]" :key="key">{{ n }}</li>
+            <li>Lançar Míssil.</li>
         </ul>
     </div>
 </template>
