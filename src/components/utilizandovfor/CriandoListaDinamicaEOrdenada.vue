@@ -13,7 +13,6 @@ export default {
   }),
   created() {
     var counter = 10;
-    
     setInterval(() => {
       counter > 0 ? this.counteDown.push(counter--) : "";
     }, 1000);
