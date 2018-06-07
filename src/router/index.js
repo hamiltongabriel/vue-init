@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/ContagemRegressiva'
+import HelloWorld from '@/components/utilizandovfor/AnimaisESons'
 
 Vue.use(Router)
 
