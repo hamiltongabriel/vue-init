@@ -1,6 +1,14 @@
 <template>
-    <div>
-        Olá para {{ 5 + 2}} cidades. <br/>
-        Hello {{ 5 + 2 }} worlds
-    </div>
+ <div>
+  Olá para {{ countCitys }} cidades.<br/>
+  Hello {{ countCitys }} worlds
+ </div>
 </template>
+<script>
+ export default{
+     //vinculacao de dados.
+  data:()=>({
+   countCitys: 5 + 2
+  })
+}
+</script>
