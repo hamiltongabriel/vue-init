@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/utilizandovfor/EnumeracaoDeArrays'
+import HelloWorld from '@/components/utilizandovfor/CriandoListaDinamicaEOrdenada'
 
 Vue.use(Router)
 
