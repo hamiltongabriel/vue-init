@@ -1,7 +1,6 @@
 <template>
     <div>
         <ul>
-            <!-- Anti padrao, nao devemos colocar matrizes literais dentro da marcacao -->
             <li v-for="(n, key) in countDown" :key="key">{{ n }}</li>
             <li>Lançar Míssil.</li>
         </ul>
