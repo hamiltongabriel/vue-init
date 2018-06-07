@@ -6,7 +6,7 @@
 </template>
 <script>
  export default{
-     //vinculacao de dados.
+     //vinculacao de dados reativas e interpolacao...
   data:()=>({
    countCitys: 5 + 2
   })
