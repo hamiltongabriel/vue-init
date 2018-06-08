@@ -6,14 +6,13 @@
 </template>
 <script>
 export default {
-//Usamos v-model para manter uma atualizacao real (fazendo uma vinculacao de dados bidirecional em 2 sentidos.)
   data: () => ({
       foodRequested: 0,
-      quantityFoodFinal: null
+      quantityFoodFinal: 0
   }),
   methods:{
     orderFood(){
-        this.quantityFoodFinal = `${this.foodRequested}` + `${this.quantityFoodFinal}`;
+        this.quantityFoodFinal = parseInt(this.foodRequested) + parseInt(this.quantityFoodFinal)
     }
   }
 };
