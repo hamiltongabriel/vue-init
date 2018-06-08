@@ -8,6 +8,7 @@
   <div>
     Quantidades de comidas solicitadas até o momento: {{quantityFoodFinal}}
   </div>
+  
 </div>
 </template>
 <script>
