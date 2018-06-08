@@ -2,7 +2,7 @@
     <div>
         <ul>
             <li v-for="(n, key) in counteDown" :key="key">{{n}}</li>
-            <li>Lançar Míssil!</li>
+            <li v-show="counteDown.length === 10">Lançar Missíl</li>
         </ul>
     </div>
 </template>
