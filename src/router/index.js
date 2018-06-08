@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/utilizandovmodel/AtualizandoUmValor'
+import HelloWorld from '@/components/utilizandovmodel/CidadesQuePretendoVisitar'
 
 Vue.use(Router)
 
