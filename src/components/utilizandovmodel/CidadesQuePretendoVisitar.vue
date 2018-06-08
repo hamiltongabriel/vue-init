@@ -17,7 +17,7 @@ export default {
   }),
   methods: {
     removeCity() {
-      this.citys.splice(i, 1);
+    //   this.citys.splice(i, 1);
     },
     addCity() {
       this.citys.push(this.newCity);
