@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/propriedadeComputada/NomeESobrenome'
+import HelloWorld from '@/components/propriedadeComputada/NumerosArmazenados'
 
 Vue.use(Router)
 
