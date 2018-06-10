@@ -1,7 +1,7 @@
 <template>
     <div>
         a = {{ a }}, b = {{ b }}
-        <input v-model="a"/>
+        <input v-model.number="a"/>
         <pre>
             {{$data | json}}
         </pre>
