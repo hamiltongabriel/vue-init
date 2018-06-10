@@ -14,6 +14,7 @@ export default {
     numberTotal: {
       get() {
         return this.numbers.reduce((sum, val) => sum + val);
+          this.numberTotal += 5;
       },
       set(newValue){
           const oldValue = this.numberTotal;

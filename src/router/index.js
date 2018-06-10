@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/propriedadeComputada/ComparacaoDeValor'
+import HelloWorld from '@/components/propriedadeComputada/LigacaoEntreReatividade'
 
 Vue.use(Router)
 
