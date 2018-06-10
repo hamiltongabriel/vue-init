@@ -8,7 +8,7 @@
 <script>
 export default {
   data: () => ({
-    nome: "Hamilton Gabrikel"
+    nome: "Hamilton Gabriel"
   }),
   computed: {
     nomeFormatado: {
