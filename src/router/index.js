@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/propriedadeComputada/CalculoEntreDoisNumeros'
+import HelloWorld from '@/components/propriedadeComputada/Calculadora'
 
 Vue.use(Router)
 
