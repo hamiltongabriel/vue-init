@@ -18,6 +18,7 @@ export default {
     legCount: 0
   }),
   computed: {
+
     tableCount: {
       // Descobrindo o numero de tabelas.
       // pega o valor da propriedade
@@ -25,6 +26,7 @@ export default {
         return this.legCount / 4
       },
       // Define o numero de Tabelas
+
       set (newValue) {
         this.legCount = newValue * 4
       }
