@@ -2,7 +2,7 @@
   <div>
     <h3>Lista de Experimentos</h3>
     <ul>
-      <li v-for="(exp, key) in nonPhysics(lowCost(experiments))" :key="key">
+      <li v-for="(exp, key) in filteredExperiments" :key="key">
         {{exp.name}} (R$ {{exp.cost}})
       </li>
     </ul>
@@ -28,6 +28,11 @@ export default {
     },
     lowCost (list) {
       return list.filter(exp => exp.cost <= 3)
+    }
+  },
+  computed: {
+    filteredExperiments () {
+      return this.lowCost(this.nonPhysics(this.experiments))
     }
   }
 }
