@@ -12,6 +12,7 @@
         {{exp.name}} ( R$ {{exp.cost}})
       </li>
     </ul>
+    <input v-model="term">
   </div>
 </template>
 
@@ -25,11 +26,18 @@ export default {
       {name: 'Violinist in the Metro', cost: 3, field: 'Psychology'},
       {name: 'Large Hadron Collider', cost: 7700, field: 'Physics'},
       {name: 'DIY Particle Detector', cost: 0, field: 'Physics'}
-    ]
+    ],
+    term: ''
   }),
   computed: {
+    // cria uma copia do campo de array, e retorna novamente.
     nonPhysics () {
       return this.experiments.filter(exp => exp.field !== 'Physics')
+    },
+    allExpectTerm () {
+      // indexOf Retorna o valor da primeira ocorrencia de um valor especificado.
+      return this.experiments
+        .filter(exp => exp.field.indexOf(this.term) === -1)
     }
   }
 }
