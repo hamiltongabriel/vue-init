@@ -13,8 +13,8 @@
 export default {
   name: 'FundamentosDeEstilo',
   data: () => ({
-    memeText: 'What if I told you ' +
-    'CSS can do that',
+    memeText: 'Ola, eu sou Hamilton Gabriel ' +
+    '',
     limit: 50
   }),
   computed: {
@@ -22,7 +22,7 @@ export default {
       if (this.limit - this.memeText.length <= 10){
         return true
       } else {
-        return false;
+        return false
       }
     }
   }
