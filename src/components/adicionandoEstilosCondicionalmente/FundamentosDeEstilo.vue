@@ -5,7 +5,7 @@
       :class="{ warn: longText }"
       :maxlength="limit">
     </textarea>
-    {{memeText.length}}
+    {{memeText.length}}/{{this.limit}}
   </div>
 </template>
 
