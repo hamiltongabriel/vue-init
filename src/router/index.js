@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/propriedadeComputada/FiltrandoLista'
+import HelloWorld from '@/components/formatandoDatasComFiltros/FormatacaoDeData'
 
 Vue.use(Router)
 
