@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/formatandoDatasComFiltros/FormatacaoDeData'
+import HelloWorld from '@/components/exibindoEOcultandoElemento/UtilizandoVShow'
 
 Vue.use(Router)
 
