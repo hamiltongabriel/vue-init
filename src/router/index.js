@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/exibindoEOcultandoElemento/UtilizandoVShow'
+import HelloWorld from '@/components/adicionandoEstilosCondicionalmente/FundamentosDeEstilo'
 
 Vue.use(Router)
 
