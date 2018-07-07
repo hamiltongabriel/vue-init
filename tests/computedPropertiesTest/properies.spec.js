@@ -6,5 +6,5 @@ describe('computedProperty.vue', () => {
   it('Testando nome do Componente', () => {
     const wrapper = shallow(computedProperty)
     expect(wrapper.name()).toEqual('computedProperty');
-  });
-});
+  })
+})

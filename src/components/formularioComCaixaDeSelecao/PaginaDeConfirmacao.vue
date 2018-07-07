@@ -1,5 +1,6 @@
 <template>
   <div>
+    {{ carUsing }}
     <form>
       <fieldset>
         <legend>Qual carro voce usa?</legend>
@@ -15,7 +16,8 @@
           <input type="checkbox" v-model="carUsing" value="corola">
           Corola <br>
         </label>
-        <input type="submit" value="Print now">
+        <!-- click.prevent = Evita submit do button -->
+        <input type="submit" value="Salvar dados" @click.prevent="printHandler"/>
       </fieldset>
     </form>
   </div>
@@ -26,7 +28,13 @@ export default {
   name: 'PaginaDeConfirmacao',
   data: () => ({
     carUsing: []
-  })
+  }),
+  methods: {
+    printHandler () {
+      let printers = this.carUsing
+      alert(`Salvando seus dados: ${(printers.length ? printers.join(', ') : 'none')}.`)
+    }
+  }
 }
 </script>
 
