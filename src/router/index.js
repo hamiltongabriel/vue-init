@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/formularioComCaixaDeSelecao/PaginaDeConfirmacao'
+import HelloWorld from '@/components/formularioComCaixaDeSelecao/AnimaisFazenda'
 
 Vue.use(Router)
 

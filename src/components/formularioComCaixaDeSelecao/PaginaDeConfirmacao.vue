@@ -18,6 +18,7 @@
         </label>
         <!-- click.prevent = Evita submit do button -->
         <input type="submit" value="Salvar dados" @click.prevent="printHandler"/>
+        <br>
       </fieldset>
     </form>
   </div>
