@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/formularioComCaixaDeSelecao/AnimaisFazenda'
+import HelloWorld from '@/components/formularioComCaixaDeSelecao/FormSelecionarElemento'
 
 Vue.use(Router)
 

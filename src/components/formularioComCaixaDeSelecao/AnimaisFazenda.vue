@@ -37,6 +37,7 @@ export default {
       this.farm.push(this.animal)
       this.animalsAleatory = Math.floor(Math.random() * (this.animals.length - 1))
       this.animal = undefined
+      console.log(this.farm)
     }
   }
 }
