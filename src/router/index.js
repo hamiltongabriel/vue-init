@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/formularioComCaixaDeSelecao/FormSelecionarElemento'
-
+// import HelloWorld from '@/components/TransitionsAndAnimations/Taxi'
+import HelloWorld from '@/ch2/propertyComputed/nameSurname'
 Vue.use(Router)
 
 export default new Router({

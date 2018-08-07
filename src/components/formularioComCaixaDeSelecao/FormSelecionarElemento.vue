@@ -2,6 +2,7 @@
   <div>
     {{choosenCountry}}
     <fieldset>
+      <select v-model="choosenCountry">
       <select v-model="clan">
         <!-- Create menu suspense-->
         <option v-for="(types, clan) in clans">{{ clan }}</option>
@@ -24,6 +25,7 @@ export default {
   name: 'FormSelecionarElemento',
   data: () => ({
     clan: undefined,
+    choosenCountry: undefined,
     type: undefined,
     clans: {
       mammalia: {
